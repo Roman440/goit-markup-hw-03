@@ -6,7 +6,7 @@
     --primary-white-color: #FFFFFF;
      
   }
-.body {
+body {
     font-family: 'Roboto', sans-serif;
     color: #434455;
     background-color: #FFFFFF;}
@@ -36,22 +36,20 @@
 .section-subtitle {
     font-weight: 500;
     font-size: 20px;
-    line-height: 24px;
+    line-height: 1.5em;
     letter-spacing: 0.02em;
     color: var(--subtitle-text-color);
   }
   
 .section-text {
-    font-weight: 400;
     font-size: 16px;
-    line-height: 24px;
+    line-height: 1.5em;
     letter-spacing: 0.02em;
   }
   
 .section-title {
-    font-weight: 700;
     font-size: 36px;
-    line-height: 40px;
+    line-height: 2.5em;
     letter-spacing: 0.02em;
     text-align: center;
     color: var(--title-text-color);
@@ -74,11 +72,15 @@
 .logo-SL {
   color: #F4F4FD;
 }
+.site-nav {
+  list-style: none;
+}
 
-.site-nav-list link {
+
+.site-nav-list {
   font-weight: 500;
   font-size: 16px;
-  line-height: 24px;
+  line-height: 1.5em;
   letter-spacing: 0.02em;
   color: #2E2F42;
 }
@@ -89,24 +91,23 @@
 }
 
 .auth-nav-link {
-  font-weight: 400;
   font-size: 16px;
-  line-height: 24px;
+  line-height: 1.5em;
   letter-spacing: 0.02em;
-  color: #434455;
+  color: #2E2F42;
 }
 .auth-nav-link:hover,
 .auth-nav-link:focus {
   color: #4D5AE5;
 }
-/*--------Her-------*/
+/*--------Hero-------*/
 .hero {
   background-color: #2E2F42;
 }
 .hero-title {
-  font-weight: 700;
+  font-weight: 600;
   font-size: 56px;
-  line-height: 60px;
+  line-height: 3.75em;
   letter-spacing: 0.02em;
   color: #FFFFFF;
 }
@@ -120,9 +121,9 @@
 {
     font-weight: 500;
     font-size: 16px;
-    line-height: 24px;
+    line-height: 1.5em;
     letter-spacing: 0.04em;
-    color: var(--primary-white-color);
+    color: #434455;
     background-color: var(--accent-color) ;
 }
 .hero-button:hover,
@@ -135,7 +136,7 @@
 .portfolio-button {
   font-weight: 500;
   font-size: 18px;
-  line-height: 24px;
+  line-height: 1.5em;
   letter-spacing: 0.04em;
   color: var(--accent-color);
  
