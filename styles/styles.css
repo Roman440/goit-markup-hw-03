@@ -128,8 +128,17 @@ body {
     font-size: 16px;
     line-height: 1.5em;
     letter-spacing: 0.04em;
-    color: #434455;
+    color: var(--primary-white-color);
     background-color: var(--accent-color) ;
+}
+.portfolio-button
+{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5em;
+    letter-spacing: 0.04em;
+    color: var(--subtitle-text-color) ;
+    background-color:#F4F4FD;
 }
 .hero-button:hover,
 .hero-buttonk:focus {
