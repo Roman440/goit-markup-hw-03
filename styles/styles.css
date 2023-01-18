@@ -95,6 +95,7 @@ body {
   line-height: 1.5em;
   letter-spacing: 0.02em;
   color: #2E2F42;
+  font-style: normal;
 }
 .auth-nav-link:hover,
 .auth-nav-link:focus {
@@ -105,18 +106,22 @@ body {
   background-color: #2E2F42;
 }
 .hero-title {
-  font-weight: 600;
   font-size: 56px;
-  line-height: 3.75em;
+  line-height: 1.75em;
   letter-spacing: 0.02em;
   color: #FFFFFF;
 }
     
-.hero-button {
-    color: var(--primary-white-color);
-    background-color: var(--accent-color) ;
+.hero-button
+{
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5em;
+  letter-spacing: 0.04em;
+  color: var(--primary-white-color);
+  background-color: var(--accent-color) ;
 }
-.hero-button,
+
 .portfolio-button-all
 {
     font-weight: 500;
