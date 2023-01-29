@@ -100,19 +100,29 @@ body {
   
 
 /*------Header-------*/
+.header {
+  padding-left: auto;
+  padding-right: auto;
+  border-bottom: 1px solid #E7E9FC;
+  box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
+}
 .header-container{
   padding-top: 24px;
   padding-bottom: 24px;
+  
 }
+
 .header-container,
 .header-navigation,
 .site-nav,
 .auth-nav
  {
   display: flex;
+ 
 }
 .header-navigation {
 margin-right: auto; 
+
 }
 .site-nav {
   gap: 40px;
@@ -173,9 +183,7 @@ margin-right: auto;
   padding-top: 188px;
   padding-bottom: 188px;
   text-align: center;
-  
-  
-}
+  }
 .hero-title {
   max-width: 496px;
   margin: 0 auto;
@@ -207,17 +215,16 @@ margin-right: auto;
   display: flex;
   flex-wrap: wrap;
   column-gap: 24px;
-  margin-top: 240px;
+  padding-top: 240px;
+  padding-bottom: 120px;
 }
 .directions-item {
   flex-basis: calc((100% - 3 * 24px) / 4);
 }
 .doing {
   padding-top: 0px;
-  margin-bottom: 240px;}
-.doing-title {
-margin-top: 120px;
-}
+  padding-bottom: 120px;}
+
 
 .doing-list-list {
   display: flex;
@@ -229,10 +236,9 @@ margin-top: 120px;
 }
 .team {
   background-color: #F4F4FD;
+  padding-top: 120px;
 }
-.team-title {
-padding-top: 120px;
-}
+
 
 .team-list {
   display: flex;
@@ -267,7 +273,7 @@ padding-top: 120px;
     background-color: var(--accent-color) ;
     border: 1px solid #E7E9FC;
     border-radius: 4px;
-padding: 12px 24px;
+    padding: 12px 24px;
 
 }
 .portfolio-button
@@ -283,14 +289,12 @@ padding: 12px 24px;
     padding: 12px 24px;
 
 }
-
   
-
 .portfolio-button-list {
   display: flex;
   justify-content: center;
   gap: 24px;
-  margin-bottom: 72px;
+  margin-bottom: 84px;
 }
 .portfolio-button-all {
   font-size: 18px;
@@ -317,12 +321,13 @@ padding: 12px 24px;
   flex-basis: calc((100% - 2 * 24px) / 3);
  }
  .portfolio-card-subtitle {
-  padding-top: 32px;
+  
   justify-content: center;
  }
  .portfolio-card-content {
   border: 0.5px solid #F4F4FD;
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+  padding-top: 32px;
   padding-bottom: 32px;
   padding-left: 16px;
 }
@@ -336,7 +341,7 @@ padding: 12px 24px;
 .footer-text {
   color: #E7E9FC;
   max-width: 264px;
-  padding-top: 16px;
+  margin-top: 16px;
   line-height: 1.5em;
   letter-spacing: 0.02em;
 }
